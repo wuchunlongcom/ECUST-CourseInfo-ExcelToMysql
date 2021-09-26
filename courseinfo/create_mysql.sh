@@ -53,7 +53,7 @@ function create_db {
 cd ${BASE_DIR}
 build_venv
 
-cd ${BASE_DIR}/{courseinfo}
+#cd ${BASE_DIR}/courseinfo
 OPT_ENV_FORCE=$1
 create_db
 
